@@ -45,14 +45,37 @@ body > div > div {
 .top {
 	margin-top: 10px;
 }
-nav a { display: inline-block; 
+nav a { 
+	display: inline-block; 
 	font-size: 18px; 
 	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif; 
 	color: #FFF; padding: 0 20px; 
 	-webkit-transition: all 1s; 
 	-moz-transition: all 1s; 
 	-o-transition: all 1s; 
-	transition: all 1s; 
+	transition: all 1s;
+	font-size: 75px; 
+}
+a {
+	text-decoration: none;
 }
 nav a:hover { background: #e41635; }
-#topnav_current { background: #e41635 }/* 高亮选中颜色 */
+#topnav_current { background: #e41635 }
+.nav {
+	width: 500px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 150px;
+}
+.spring {
+	color: #1a7000;
+}
+.summer {
+	color: #4c1005;
+}
+.autumn {
+	color: #e2a217;
+}
+.winter {
+	color: #b6cad8;
+}
