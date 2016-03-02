@@ -8,7 +8,7 @@
 }
 .logo {
 	float: left;
-	margin-left: 10px;
+	margin-top: 30px;
 }
 .iconfont {
     font-family:"iconfont" !important;
@@ -17,9 +17,25 @@
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
+#Clock {
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	border-color: transparent;
+}
+#Clock1 {
+	text-align: center;
+	font-size: 20px;
+}
+#Clock2 {
+	text-align: center;
+	font-size: 30px;
+	color: #f5f5f5;
+}
 .poetry {
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
+	margin-top: 30px;
 }
 li {
 	list-style: none;
@@ -31,6 +47,7 @@ li {
 body {
 	width: 100%;
 	font-family:  Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	position: relative;
 }
 #body {
 	width: 90%;
@@ -43,7 +60,9 @@ body {
 
 }
 .top {
-	margin-top: 10px;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
 }
 #topnav {
 	width:100%;
@@ -69,6 +88,7 @@ nav a:hover { background: #e41635; }
 .nav {
 	margin:0 auto;
 	text-align: center;
+	position: relative;
 	margin-top: 150px;
 }
 .middle {
