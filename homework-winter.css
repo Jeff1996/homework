@@ -83,8 +83,12 @@ nav a {
 a {
 	text-decoration: none;
 }
-nav a:hover { background: #e41635; }
-#topnav_current { background: #e41635 }
+nav a:hover { 
+	background: #e41635; 
+}
+#topnav_current { 
+	background: #e41635 
+}
 .nav {
 	margin:0 auto;
 	text-align: center;
@@ -185,9 +189,11 @@ article h4 {
 .right p a {
 	font-size: 16px;
 	color:#bbbbbb;
+	transition: font-size 0.2s ease-out 0s;
 }
 .right p a:hover {
 	color: #000;
+	font-size: 25px;
 }
 .myself {
 	width: 100%;
